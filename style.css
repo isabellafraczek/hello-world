@@ -5,13 +5,15 @@ body {
 nav {
     text-transform: Uppercase;
     font-family: "PT Sans Narrow";
+    
 }
 
 .nav-link:hover {
     opacity: 1;
     background-color: #eee !important;
-    
+   
 }
+
 
 header {
     /*Sizing*/
@@ -19,4 +21,24 @@ header {
     width: 100%;
     background-image: url("header.jpg");
     background-size: cover;
+    text-align:center;
+   
+}
+
+.services {
+    text-align:Center;
+}
+
+.services i{
+    font-size: 30px;
+    padding: 25px 20px;
+    color: #fff;
+    background-color: Lightgreen;
+    width:80px;
+    Height:80px;
+    boarder-radius: 50%;
+}
+.services span{
+    width: 200px;
+    display:incline-block;
 }
